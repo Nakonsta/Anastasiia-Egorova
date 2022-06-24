@@ -1,5 +1,9 @@
 <template>
-  <Tutorial/>
+  <div>
+    234
+    <Tutorial/>
+    <NuxtLink to="/cv">CV</NuxtLink>
+  </div>
 </template>
 
 <script lang="ts">
