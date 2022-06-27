@@ -13,7 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: [
+      { src:'https://api-maps.yandex.ru/2.1/?apikey=82b73cb0-a9cb-47d8-8a50-7c2b3877ac90&lang=ru_RU'},
+      { src:'./js/map.js'},
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -24,7 +28,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '@/plugins/element-ui'
+    '@/plugins/element-ui',
+    // { src: '~/plugins/ymapPlugin.js',  mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

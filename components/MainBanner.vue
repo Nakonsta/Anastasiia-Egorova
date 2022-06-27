@@ -44,7 +44,8 @@ export default Vue.extend({
     left: 0
     right: 0
     height: 80px
-    background: linear-gradient(180deg, #149aa2, transparent)
+    background: linear-gradient(180deg, #003548, transparent)
+    opacity: 0.5
     
 .first-screen__inner 
     position: relative

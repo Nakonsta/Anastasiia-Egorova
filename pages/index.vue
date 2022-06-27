@@ -4,6 +4,7 @@
     <main>
       <MainBanner />
       <AboutMe />
+      <Map />
     </main>
   </div>
 </template>
@@ -13,6 +14,7 @@ import Vue from 'vue'
 import TopMenu from '@/components/TopMenu.vue'
 import MainBanner from '@/components/MainBanner.vue'
 import AboutMe from '@/components/AboutMe.vue'
+import Map from '~/components/Map.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
@@ -20,6 +22,7 @@ export default Vue.extend({
     TopMenu,
     MainBanner,
     AboutMe,
+    Map,
   }
 })
 </script>

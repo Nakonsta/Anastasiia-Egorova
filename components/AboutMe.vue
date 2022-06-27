@@ -13,17 +13,8 @@
             До 2020 года я активно путешествовала, суммарно посетила более 30 стран, и моя особая любовь - это направления, куда ездить непринято. Моей голубой мечтой была Латинская Америка и в 2017 году я ее осуществила, слетав в Панами и Колумбию, посмотрев не только крупные города, но и проведя 5 дней в джунглях - ночуя в гамаке, купаясь в Амазонке с пираньями и фото-охотясь на кайманов.
           </div>
           <div class="buttons">
-            <NuxtLink 
-              to="/cv"
-              class="link"
-            >
-              <Button text="CV" />
-            </NuxtLink>
-            <NuxtLink 
-              to="/contacts"
-              class="link"
-            >
-              <Button text="Contacts" />
+            <NuxtLink to="./food-list">
+              <AppButton text="Рейтинг ресторанов"/>
             </NuxtLink>
           </div>
         </div>
@@ -34,12 +25,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import Button from '@/components/Button.vue'
+import AppButton from '@/components/AppButton.vue'
 
 export default Vue.extend({
   name: 'AboutMe',
   components: {
-    Button,
+    AppButton,
   },
 })
 </script>
@@ -61,7 +52,7 @@ export default Vue.extend({
 
 .photo
   padding-right: 12px
-  background: url('/images/about-me.jpg') no-repeat 50%  20%
+  background: url('/images/about-me.jpg') no-repeat 50%  28%
   background-size: cover 
 
 .info
@@ -69,10 +60,6 @@ export default Vue.extend({
   font-size: 19px
 
 .buttons
-  display: flex
   padding-top: 24px
-
-.link
-  margin-right: 8px
 
 </style>
