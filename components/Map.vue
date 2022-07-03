@@ -1,6 +1,8 @@
 <template>
-  <div class="container">
-    <div id="map" style="height: 650px"></div>
+  <div class="root">
+    <div class="container">
+      <div id="map" style="height: 650px"></div>
+    </div>
   </div>
 </template>
 
@@ -11,3 +13,8 @@ export default Vue.extend({
   name: 'Map',
 })
 </script>
+
+<style lang="sass" scoped>
+.root 
+  padding-bottom: 48px
+</style>

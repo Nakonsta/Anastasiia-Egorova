@@ -19,7 +19,7 @@ export default Vue.extend({
 
 </script>
 
-<style lang="sass"scoped>
+<style lang="sass" scoped>
 .button 
   cursor: pointer
   width: 100%
