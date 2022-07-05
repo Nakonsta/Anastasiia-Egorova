@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 const initMap = () => {
-  if (!document.querySelector('#map')) return
+  //if (!document.querySelector('#map')) return
   let myMap = new ymaps.Map ("map", {
     center: [55.76, 37.64], 
     zoom: 2

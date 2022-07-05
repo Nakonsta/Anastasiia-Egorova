@@ -4,21 +4,29 @@
       <div class="header__inner d-flex justify-content-center align-center">
           <nav class="header__nav d-flex">
               <div class="header__nav-item">
-                  <a href="#" class="header__nav-link">Портфолио</a>
+                  <NuxtLink to="/" class="header__nav-link">
+                    Главная
+                  </NuxtLink>
               </div>
               <div class="header__nav-item">
-                  <a href="#" class="header__nav-link">Путешествия</a>
+                  <NuxtLink to="./" class="header__nav-link">
+                    Путешествия
+                  </NuxtLink>
               </div>
           </nav>
           <!-- div class="header__logo-item">
-              <a href="#" class="header__logo-link">АЕ</a>
+              <NuxtLink to="/" class="header__logo-link">АЕ</a>
           </div -->
           <nav class="header__nav d-flex">
               <div class="header__nav-item">
-                  <a href="#" class="header__nav-link">Обо мне</a>
+                  <NuxtLink to="./restaurants" class="header__nav-link">
+                    Рестораны
+                  </NuxtLink>
               </div>
               <div class="header__nav-item">
-                  <a href="#" class="header__nav-link">Контакты</a>
+                  <NuxtLink to="./" class="header__nav-link">
+                    Контакты
+                  </NuxtLink>
               </div>
           </nav>
       </div>

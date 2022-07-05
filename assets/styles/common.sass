@@ -20,10 +20,35 @@ a
 
 .container 
   max-width: 1280px
-  margin: 0 auto 
-
-.container--left 
-  width: calc(100% - (100% - 1280px)/2) 
+  margin: 0 auto
+  &--right
+    margin: 0
+    margin-right: calc((100% - 1280px)/4)
+    max-width: calc(1280px + ((100% - 1280px)/2))
+  &--left
+    margin: 0
+    margin-left: calc((100% - 1280px)/2)
+    max-width: calc(1280px + ((100% - 1280px)/2))
+    @media (max-width: 1749px)
+      margin-left: auto
+      max-width: 1280px
+  &--large
+      max-width: 1765px
+  @media (max-width: 1800px)
+    padding: 0 3%
+  @media (max-width: 767px)
+    padding: 0 5%
+  &--large-right
+    margin: 0
+    margin-right: calc((100% - 1765px)/4)
+    max-width: calc(1765px + ((100% - 1765px)/2))
+  &--large-left
+    margin: 0
+    margin-left: calc((100% - 1765px)/2)
+    max-width: calc(1765px + ((100% - 1765px)/2))
+    @media (max-width: 1749px)
+      margin-left: auto
+      max-width: 1765px
 
 .container-fluid 
   padding: 0 5% 
@@ -66,3 +91,8 @@ a
 .mapClass
   width: 100%
   height: 600px
+
+ul, ol
+  margin: 0
+  padding: 0
+  list-style: none
