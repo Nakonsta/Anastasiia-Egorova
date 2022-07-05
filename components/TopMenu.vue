@@ -19,7 +19,7 @@
           </div -->
           <nav class="header__nav d-flex">
               <div class="header__nav-item">
-                  <NuxtLink to="./restaurants" class="header__nav-link">
+                  <NuxtLink to="/restaurants" class="header__nav-link">
                     Рестораны
                   </NuxtLink>
               </div>
