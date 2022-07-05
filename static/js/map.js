@@ -167,4 +167,16 @@ const initMap = () => {
       balloonContentHeader: `<div>Гюмбет, Турция</div>`,
       balloonContentBody: `<img src='./images/map/gumbet.jpg'>`,
     }, marker))
+    .add(new ymaps.Placemark([40.177628, 44.512555], {
+      balloonContentHeader: `<div>Ереван, Армения</div>`,
+      balloonContentBody: `<img src='./images/map/erevan.jpg'>`,
+    }, marker))
+    .add(new ymaps.Placemark([39.764008, 45.333238], {
+      balloonContentHeader: `<div>Ехегнадзор, Армения</div>`,
+      balloonContentBody: `<img src='./images/map/ehegnadzor.jpg'>`,
+    }, marker))
+    .add(new ymaps.Placemark([40.563000, 44.9957500], {
+      balloonContentHeader: `<div>Севан, Армения</div>`,
+      balloonContentBody: `<img src='./images/map/ehegnadzor.jpg'>`,
+    }, marker))
 }

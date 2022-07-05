@@ -35,22 +35,11 @@ export default Vue.extend({
   height: 120vh
   background: url('/images/sea.jpg') 50% 100% no-repeat
   background-size: cover
-
-  &::before
-    content: ''
-    z-index: 2
-    position: absolute
-    top: 0
-    left: 0
-    right: 0
-    height: 80px
-    background: linear-gradient(180deg, #003548, transparent)
-    opacity: 0.5
     
 .first-screen__inner 
-    position: relative
-    height: 100%
-    width: 100%
+  position: relative
+  height: 100%
+  width: 100%
 
 .first-screen__text 
   position: absolute

@@ -13,7 +13,7 @@
             До 2020 года я активно путешествовала, суммарно посетила более 30 стран, и моя особая любовь - это направления, куда ездить непринято. Моей голубой мечтой была Латинская Америка и в 2017 году я ее осуществила, слетав в Панами и Колумбию, посмотрев не только крупные города, но и проведя 5 дней в джунглях - ночуя в гамаке, купаясь в Амазонке с пираньями и фото-охотясь на кайманов.
           </div>
           <div class="buttons">
-            <a href="./food-list">
+            <a href="./restaurants">
               <AppButton text="Рейтинг ресторанов"/>
             </a>
           </div>
@@ -48,15 +48,15 @@ export default Vue.extend({
   display: flex
 
 .block
-  width: calc((100% - 24px)/2)
+  width: calc((100% - 48px)/2)
 
 .photo
-  padding-right: 12px
+  margin-right: 24px
   background: url('/images/about-me.jpg') no-repeat 50%  28%
   background-size: cover 
 
 .info
-  padding-left: 12px
+  padding-left: 24px
   font-size: 19px
 
 .buttons

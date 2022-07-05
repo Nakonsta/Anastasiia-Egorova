@@ -41,8 +41,20 @@ export default Vue.extend({
   left: 0
   right: 0
   z-index: 10 
+  &::before
+    content: ''
+    z-index: 2
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    height: 80px
+    background: linear-gradient(180deg, #003548, transparent)
+    opacity: 0.5
 
 .header__inner 
+  z-index: 8
+  position: relative
   padding-top: 1.5rem 
   @media (max-width: 1439px) 
     .header__nav 
