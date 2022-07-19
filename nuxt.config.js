@@ -9,7 +9,27 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        property: 'og:title',
+        content: 'Анастасия Егорова | Frontend & Travel',
+      },
+      {
+        property: 'og:description',
+        content: 'Путешествия, новые страны, новые дороги, вкусная еда и немного фронтенд-разработки',
+      },
+      {
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        property: 'og:url',
+        content: 'http://anastasiia-egorova.ru/',
+      },
+      {
+        property: 'og:image',
+        content: 'https://anastasiia-egorova.ru/images/snippet.jpg',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -47,6 +67,17 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/yandex-metrika',
+      {
+        id: '84951139',
+        webvisor: true,
+        // clickmap: true,
+        // useCDN: false,
+        // trackLinks: true,
+        // accurateTrackBounce: true,
+      }
+    ],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

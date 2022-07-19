@@ -93,6 +93,16 @@ const name = 'Restaurant'
 
 export default {
   name,
+  head: {
+    title: `Мой личный рейтинг ресторанов | Frontend & Travel`,
+    meta: [
+      {
+        hid: `description_restaurant`,
+        name: 'description',
+        content: 'Отзыв о ресторане, кухне, обслуживании, мой личный рейтинг ресторанов в Москве и в мире | Frontend & Travel'
+      }
+    ],
+  },
   components: {
     TopMenu,
   },
@@ -126,6 +136,8 @@ export default {
   background-repeat: no-repeat
   background-position: 50% 50%
   background-size: cover
+  @media (max-width: 767px)
+    height: 60vh
   &::before
     content: ''
     position: absolute
@@ -160,6 +172,9 @@ export default {
   position: relative
   height: 500px
   background-color: #ffbb9b
+  @media (max-width: 767px)
+    height: auto
+    padding-bottom: 300px
 
 .info__texts
   display: flex
@@ -167,6 +182,12 @@ export default {
   max-width: 35%
   height: 100%
   font-family: 'Roboto Condensed', Arial, sans-serif
+  @media (max-width: 1365px)
+    padding-left: 3%
+  @media (max-width: 767px)
+    max-width: none
+    height: auto
+    padding: 50px 3%
 
 .details__texts
   display: flex
@@ -174,6 +195,12 @@ export default {
   margin-left: 65%
   height: 100%
   font-family: 'Roboto Condensed', Arial, sans-serif
+  @media (max-width: 1365px)
+    margin-left: 55%
+  @media (max-width: 767px)
+    margin-left: 0
+    height: auto
+    padding: 50px 3%
 
 .location
   display: flex
@@ -193,6 +220,10 @@ export default {
   background-repeat: no-repeat
   background-position: 50% 50%
   background-size: cover
+  @media (max-width: 767px)
+    top: auto
+    width: 100%
+    height: 300px
   &--interior
     right: 0
   &--details

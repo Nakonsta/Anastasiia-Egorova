@@ -148,8 +148,22 @@ export default {
   height: 500px
   margin-right: 24px
   margin-bottom: 24px
+  @media (max-width: 1023px) 
+    width: calc((100% - 24px)/2)
+    height: 300px
+  @media (max-width: 575px)
+    width: 100%
+    margin-right: 0
   &:nth-child(3n + 3)
     margin-right: 0
+    @media (max-width: 1023px)
+      margin-right: 24px
+    @media (max-width: 575px)
+      margin-right: 0
+  &:nth-child(2n + 2)
+    @media (max-width: 1023px)
+      margin-right: 0
+  
   &__link
     z-index: 5
     position: absolute

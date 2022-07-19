@@ -18,6 +18,16 @@ import Map from '@/components/Map.vue'
 
 export default Vue.extend({
   name: 'IndexPage',
+  head: {
+    title: 'Анастасия Егорова | Frontend & Travel',
+    meta: [
+      {
+        hid: 'description_index',
+        name: 'description',
+        content: 'Путешествия, приключения, рестораны и кафе, фронтенд-разработка и верстка'
+      }
+    ],
+  },
   components: {
     TopMenu,
     MainBanner,

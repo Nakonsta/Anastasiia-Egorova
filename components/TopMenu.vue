@@ -64,7 +64,7 @@ export default Vue.extend({
   z-index: 8
   position: relative
   padding-top: 1.5rem 
-  @media (max-width: 1439px) 
+  @media (max-width: 1023px) 
     .header__nav 
       display: none  
 

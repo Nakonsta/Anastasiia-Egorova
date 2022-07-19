@@ -36,28 +36,35 @@ export default Vue.extend({
 </script>
 
 <style lang="sass" scoped>
-.h2
-  font-size: 22px
-  text-align: center
-  text-transform: uppercase
-
 .about
   padding: 160px 0
+  @media (max-width: 1023px)
+    padding: 160px 0 60px
 
 .inner
   display: flex
+  @media (max-width: 1023px)
+    flex-direction: column
 
 .block
   width: calc((100% - 48px)/2)
+  @media (max-width: 1023px)
+    width: 100%
 
 .photo
   margin-right: 24px
   background: url('/images/about-me.jpg') no-repeat 50%  28%
   background-size: cover 
+  @media (max-width: 1023px)
+    margin-right: 0
+    height: 400px
 
 .info
   padding-left: 24px
   font-size: 19px
+  @media (max-width: 1023px)
+    padding-top: 32px
+    padding-left: 0
 
 .buttons
   padding-top: 24px

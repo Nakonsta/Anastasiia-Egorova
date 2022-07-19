@@ -1,9 +1,11 @@
 <template>
   <div class="root">
     <div class="container">
+      <div class="h2">
+        Где я была
+      </div>
       <div id="map" style="height: 650px"></div>
     </div>
-    
   </div>
 </template>
 
