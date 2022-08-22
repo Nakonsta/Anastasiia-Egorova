@@ -74,7 +74,7 @@
               Мой личный рейтинг: {{ restaurant.isRecommended }} из 5
             </div>
             <div v-if="restaurant.website" class="website">
-              <a :href="restaurant.website" target="_blank" class="city">
+              <a :href="restaurant.website" target="_blank" class="link">
                 {{ restaurant.website }}
               </a>
             </div>
@@ -248,5 +248,11 @@ export default {
 
 .rating
   padding-bottom: 24px
+
+.link
+  text-decoration: underline
+  &:hover,
+  &:focus-visible
+    text-decoration: none
 
 </style>

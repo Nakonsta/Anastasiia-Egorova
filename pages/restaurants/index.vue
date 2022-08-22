@@ -114,7 +114,8 @@ export default {
     height: 240px
     background: linear-gradient(0deg, #003548, transparent)
     opacity: 0.5
-
+    @media (max-width: 767px)
+      height: 300px
 .inner
   z-index: 3
   position: relative
@@ -125,6 +126,8 @@ export default {
 
 .title
   padding-bottom: 48px
+  @media (max-width: 767px)
+    padding-bottom: 60px
 
 .h1
   font-size: 40px

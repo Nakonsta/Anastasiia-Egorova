@@ -16,7 +16,7 @@ export const state = () => ({
     {
       id: 2,
       title: 'Гастробар "Соль"',
-      website: 'http://saltgastrobar.ru/',
+      website: 'http://saltgastrobar.ru',
       city: 'Калининград',
       address: 'ул. Леонова 55, Калининград, 236023',
       isRecommended: '5',
@@ -30,7 +30,7 @@ export const state = () => ({
     {
       id: 3,
       title: 'AQ Kitchen',
-      website: 'http://aq.kitchen/',
+      website: 'http://aq.kitchen',
       city: 'Москва',
       address: 'ул. Большая Грузинская, 69, Москва, 123056',
       isRecommended: '5',
@@ -44,7 +44,7 @@ export const state = () => ({
     {
       id: 4,
       title: 'Таверна "Дядя Геральт"',
-      website: 'https://geralt-tavern.ru/',
+      website: 'https://geralt-tavern.ru',
       city: 'Москва',
       address: 'ул. Земляной Вал, 58, Москва, 105064',
       isRecommended: '4',
@@ -58,7 +58,7 @@ export const state = () => ({
     {
       id: 5,
       title: 'Сойка напела',
-      website: 'https://soykanapela.ru/',
+      website: 'https://soykanapela.ru',
       city: 'Москва',
       address: 'Красная Пресня, 36, стр. 1, Москва, 123022',
       isRecommended: '5',
@@ -72,7 +72,7 @@ export const state = () => ({
     {
       id: 6,
       title: 'Хинкальная на Пресне',
-      website: 'http://xn--28-6kca2bmind8e2dtb.xn--p1ai/',
+      website: 'http://xn--28-6kca2bmind8e2dtb.xn--p1ai',
       city: 'Москва',
       address: 'ул. Красная Пресня, 28 (этаж 1), Москва, 123376',
       isRecommended: null,
@@ -86,7 +86,7 @@ export const state = () => ({
     {
       id: 7,
       title: 'Тифлисский дворик',
-      website: 'https://tiflis.ru/',
+      website: 'https://tiflis.ru',
       city: 'Москва',
       address: 'ул. Остоженка, 32/2, Москва, 	119034',
       isRecommended: '5-',
@@ -100,7 +100,7 @@ export const state = () => ({
     {
       id: 8,
       title: 'Burger Heroes',
-      website: 'https://burgerheroes.ru/',
+      website: 'https://burgerheroes.ru',
       city: 'Москва',
       address: 'Москва, множество точек',
       isRecommended: '4',
@@ -114,7 +114,7 @@ export const state = () => ({
     {
       id: 9,
       title: 'Torro Grill',
-      website: 'https://www.torrogrill.ru/',
+      website: 'https://www.torrogrill.ru',
       city: 'Москва',
       address: 'Москва, множество точек',
       isRecommended: null,
@@ -128,7 +128,7 @@ export const state = () => ({
     {
       id: 10,
       title: 'Субботица',
-      website: 'http://subbotitsa.ru/',
+      website: 'http://subbotitsa.ru',
       city: 'Москва',
       address: 'Москва, несколько точек',
       isRecommended: 5,
@@ -142,7 +142,7 @@ export const state = () => ({
     {
       id: 11,
       title: 'Bocconcino',
-      website: 'https://www.bocconcino.ru/',
+      website: 'https://www.bocconcino.ru',
       city: 'Москва',
       address: 'Москва, много точек',
       isRecommended: null,
@@ -155,7 +155,7 @@ export const state = () => ({
     {
       id: 12,
       title: 'Lure',
-      website: 'https://lureoysterbar.ru/',
+      website: 'https://lureoysterbar.ru',
       city: 'Москва',
       address: '3-я ул. Ямского Поля, 9 и ул. Пятницкая, 2/38, Москва',
       isRecommended: null,
@@ -168,7 +168,7 @@ export const state = () => ({
     {
       id: 13,
       title: 'Eva',
-      website: 'https://eva.lucky-group.rest/',
+      website: 'https://eva.lucky-group.rest',
       city: 'Москва',
       address: 'ул. Большая Грузинская, 69, Москва, 123056',
       isRecommended: null,
@@ -181,7 +181,7 @@ export const state = () => ({
     {
       id: 14,
       title: 'Пипл&Паста',
-      website: 'https://people-pasta.ru/',
+      website: 'https://people-pasta.ru',
       city: 'Москва',
       address: 'Москва, несколько точек',
       isRecommended: null,
@@ -194,7 +194,7 @@ export const state = () => ({
     {
       id: 15,
       title: 'Чуаньюй',
-      website: 'https://chy.rest/',
+      website: 'https://chy.rest',
       city: 'Москва',
       address: 'Мичуринский пр-кт, 7к1, Москва, 119192',
       isRecommended: null,
@@ -207,7 +207,7 @@ export const state = () => ({
     {
       id: 16,
       title: '[KU:] Ramen',
-      website: 'https://kuramen.ru/',
+      website: 'https://kuramen.ru',
       city: 'Москва',
       address: 'Москва, несколько точек',
       isRecommended: null,
@@ -220,7 +220,7 @@ export const state = () => ({
     {
       id: 17,
       title: 'Горыныч',
-      website: 'https://gorynich.com/',
+      website: 'https://gorynich.com',
       city: 'Москва',
       address: 'Рождественский бульвар, 1, Москва, 107045',
       isRecommended: null,
@@ -242,6 +242,32 @@ export const state = () => ({
       cuisine: ['Стейки', 'Морепродукты', 'Средиземноморская'],
       images: 'Saltanat',
       description: 'Потрясающий чай – как яблочный, так и гранатовый! На второе брала жаркое из курицы с овощами, очень вкусное, очень горячее весь вечер благодаря подаче на сковороде. Сидели на открытой веранде на мягком диванчике. Расположение – центр, но не 50 см от дороги, что иногда бывает в Турции. Отличный сервис, ласковые котики, переходящие от гостя к гостю, хотя последнее применимо ко всему Стамбулу.',
+    },
+    {
+      id: 19,
+      title: 'Бранч & Боул',
+      website: 'https://branchbowl.ru',
+      city: 'Калининград',
+      address: 'Калининград, несколько точек',
+      isRecommended: '5',
+      isVisited: true,
+      price: 3,
+      cuisine: ['Европейская', 'Азиатская'],
+      images: 'BranchBowl',
+      description: 'Завтракали в этом кафе, я брала бенедикт с лососем и раф, и то, и другое на высоте – и по вкусу, и по размеру порции, и по подаче. Были в филиале на Театральной, кафе находится в полукруглом здании, большие окна, диванчики. Довольно много людей даже с утра, но подача быстрая. Идеально для расслабленных завтраков.',
+    },
+    {
+      id: 20,
+      title: 'Корчма Борщ и Сало',
+      website: 'https://borshsalo.ru',
+      city: 'Калининград',
+      address: 'пл. Победы, 10, Калининград, 236022',
+      isRecommended: '3',
+      isVisited: true,
+      price: 3,
+      cuisine: ['Украинская', 'Русская'],
+      images: 'Borshsalo',
+      description: 'Заходила ужинать, брала голубцы, пробовала вареники с картошкой. Мне блюда показались обычными, неплохо, но не впечатлило. Однако очень много позитивных отзывов, многим нравится борщ. Иногда в качестве комплимента гостей угощают настойками.',
     },
   ]
 })
