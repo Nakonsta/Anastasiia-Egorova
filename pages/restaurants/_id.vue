@@ -171,7 +171,6 @@ export default {
 .info
   position: relative
   height: 500px
-  background-color: #ffbb9b
   @media (max-width: 767px)
     height: auto
     padding-bottom: 300px
@@ -232,7 +231,7 @@ export default {
 .subtitle
   font-size: 28px
   font-weight: 700
-  padding-bottom: 2px
+  padding-bottom: 5px
 
 .cuisine
   &__list
